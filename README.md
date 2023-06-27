@@ -1,2 +1,2 @@
 # react-components
-React components
+Reusable react components
