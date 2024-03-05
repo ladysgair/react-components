@@ -15,13 +15,15 @@ class Shape {
   }
   
   class Triangle extends Shape {
-    constructor(base, height, side1, side2, side3) {
+    constructor(base, height, side1, side2, side3, side4 = null) {
       super('Triangle');
       this.base = base;
       this.height = height;
       this.side1 = side1;
       this.side2 = side2;
       this.side3 = side3;
+      this.side4 = side4;
+
     }
   
     // Implementing the calculateArea method for Triangle
